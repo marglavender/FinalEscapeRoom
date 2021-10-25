@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - #4 Fill in the Blank</title>
+  <style>
+div.letter{
+background-color:lightgray;
+padding: 50px;
+}
+</style>
+
+<link rel='stylesheet' href='https://fonts.googleapis.com'>
+<link rel='stylesheet' href='https://fonts.gstatic.com'>
+<link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Gentium+Basic:ital@1&amp;display=swap'>
+<link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Gentium+Basic:ital@1&amp;family=Raleway:wght@300&amp;display=swap"rel="stylesheet'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="letter">
+   
+  <style>
+h2 {
+  border: 2px solid lightsteelblue;
+}
+</style>
+
+<!--title of puzzle 4-->  
+  <h2 id="puzzle4">Fill in the Blank</h2>
+  
+  <!--description and instructions for puzzle 4-->
+  <p>Figure out what the missing letters are by filling in the blanks. You will be provided with some letters to start. Once you crack this code it will lead you to your next clue. You are one step closer to finding the hidden treasure. </p>
+  
+  <!--inserted image for users to complete fill in the blank puzzle-->
+<img src="https://marglavender.github.io/EscapeRoomNarrative/ThePlank.jpg" alt="clue" style="width:300px;height:200px;"
+       id="rotation"> 
+  <!--gives information on how to input answer into submission box-->
+  <p><b>Please type the word that fills in the blank in the box below.</p></b>
+<!--use the input type password-->
+ <p>Answer:<input id="passwordBox" type="password"/></p>
+<!--Link out to new page if password is correct-->
+ <a href="https://marglavender.github.io/FinalEscapeRoom/puzzle5.html" 
+    onclick="return apples();">
+  Click here to submit your answer.
+ </a>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
