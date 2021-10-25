@@ -1,0 +1,13 @@
+h1 {font-family: 'Gentium Basic', serif;}
+p {font-family: 'Gentium Basic', serif;
+font-family: 'Raleway', sans-serif;}
+h2 {font-family: 'Gentium Basic', serif;}
+
+div {
+  background-image: linear-gradient( to bottom right, sandybrown, tan);
+}
+
+
+h2 {
+  text-shadow: 2px 2px 2px cornflowerblue;
+}
