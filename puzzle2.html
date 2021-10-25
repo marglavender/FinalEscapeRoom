@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - #2 Maze</title>
+  <style>
+div.letter{
+background-color:lightgray;
+padding: 50px;
+}
+</style>
+
+<link rel='stylesheet' href='https://fonts.googleapis.com'>
+<link rel='stylesheet' href='https://fonts.gstatic.com'>
+<link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Gentium+Basic:ital@1&amp;display=swap'>
+<link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Gentium+Basic:ital@1&amp;family=Raleway:wght@300&amp;display=swap"rel="stylesheet'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="letter">
+  
+  <style>
+h2 {
+  border: 2px solid lightsteelblue;
+}
+</style>
+
+  
+  <!--title to puzzle 2-->
+  <h2 id="puzzle2">Complete the Maze</h2>
+  <!--description and instructions to puzzle 2-->
+  <p>This maze will have random letters throughout. Once you solve the maze, you will pick out each letter that you passed to form a word. When beginning the maze, you will start at the bottom. You will write that word underneath the maze on the lines provided. When typing in your answer there will be no spaces in your word. This will lead you to your next puzzle.</p>
+  <!--maze image for users to complete-->
+  <img src="https://marglavender.github.io/EscapeRoomNarrative/Maze.jpg" alt="maze with letters">
+  
+  <!--input section for users to type in their answer-->
+  <p><b>Please enter your answer to the maze.</p></b>
+  <p>Answer:<input id="passwordBox" type="Password"/></p>
+ <a 
+href="https://marglavender.github.io/FinalEscapeRoom/puzzle3.html" 
+    onclick="return checkPassword();">
+  Click here to submit your answer.
+ </a>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>

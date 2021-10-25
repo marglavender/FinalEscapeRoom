@@ -1,0 +1,55 @@
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+img {
+  opacity: 0.8;
+}
+
+h1 {font-family: 'Gentium Basic', serif;}
+p {font-family: 'Gentium Basic', serif;
+font-family: 'Raleway', sans-serif;}
+h2 {font-family: 'Gentium Basic', serif;}
+
+div {
+  background-image: linear-gradient( to bottom right, darkseagreen, tan);
+}
+
+h1 {
+  text-shadow: 4px 4px 3px indianred;
+}
+
+h2 {
+  text-shadow: 2px 2px 2px cornflowerblue;
+}
+
+@keyframes animated_div
+{
+0% {transform: rotate(0deg);left:0px;}
+25% {transform: rotate(20deg);left:0px;}
+50% {transform: rotate(0deg);left:500px;}
+55% {transform: rotate(0deg);left:500px;}
+70% {transform: rotate(0deg);left:500px;}
+100% {transform: rotate(-360deg);left:0px;}
+}
+
+#rotation{ animation:animated_div 3s 2;
+
+position:relative;
+} 
+
+.button {
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
