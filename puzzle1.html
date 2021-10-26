@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - #1 Jigsaw Puzzle</title>
+  <style>
+div.letter{
+background-color:lightgray;
+padding: 50px;
+}
+</style>
+
+<link rel='stylesheet' href='https://fonts.googleapis.com'>
+<link rel='stylesheet' href='https://fonts.gstatic.com'>
+<link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Gentium+Basic:ital@1&amp;display=swap'>
+<link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Gentium+Basic:ital@1&amp;family=Raleway:wght@300&amp;display=swap"rel="stylesheet'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="letter">
+   <!--inserting treasure map image-->
+  <img src="https://marglavender.github.io/EscapeRoomNarrative/TheLostTreasure.jpg" alt="image of treasure maps with text, hidden treasure hunt">
+  
+  <!--title of escape room spins in and out for an animation-->
+  <h1 id="rotation" style="text-align:center">The Lost Treasure</h1> 
+  
+    
+<br>
+    
+    </nav>
+  <!--inserted pirate audio-->
+ <audio controls src="https://marglavender.github.io/EscapeRoomNarrative/EscapeRoomAudio.mp3">
+  </audio>
+   <!--insert title-->
+  <h2
+id='description'>Description</h2>
+  
+  <p>Ahoy maties!We have recently discovered a mysterious island off the coast of Mykonos, Greece that is filled with puzzles and riddles in order to uncover treasure. We have heard from around the island that there is a hidden treasure lurking beneath and we need your help to find it. It appears to have been a wealthy pirate who spent a lot of time and effort to cover up his traces of what he was doing and where the treasure is located. We now assume that his last remaining treasure is hidden on this newly discovered island. You will be expected to uncover clues, decipher codes, complete puzzles, and solve riddles in order to gather more clues to lead you to the treasure.
+  </p>
+  <!--changed border of title to blue-->
+  <style>
+h2 {
+  border: 2px solid lightsteelblue;
+}
+</style>
+<!--body of the description-->
+  <p>
+The time is of the essence my friends as there is another crew searching for the treasure. You must get to the treasure first to receive all of the secretive treasures this pirate has hidden. If you don’t find the treasure before the other crew you won’t receive your well deserving treasures. Be sure to look out for hidden clues and always be aware of your surroundings as you start your journey. We are calling upon you for immediate help. Good luck!
+  </p>
+  
+  <!-- Trigger/Open The Modal -->
+<button class="button button1" id="myBtn">Open Treasure Map</button>
+
+<!-- The Modal, when user clicks button it opens the treasure map -->
+<div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+  <div id="caption"></div>
+</div>
+
+ <!-- <img src=" https://marglavender.github.io/EscapeRoomNarrative/Map.jpg" alt="treasure map" style="width:400px;height:300px;"-->
+
+  <!--title of the first puzzle-->
+  <h2 id="puzzle1">Jigsaw Puzzle</h2>
+  
+     <!--body of the puzzle-->  
+  <p>This puzzle you will be completing a jigsaw puzzle. The puzzle contains 25 pieces and will uncover a pirate picture. Once you have completed the puzzle, a congratulatory message will appear and you will click on the link to take you to the next puzzle.</p>
+  <!--interactive jigsaw puzzle for users to complete with link to next puzzle-->
+ 
+<iframe style="width: 100%; height: 600px; max-height: 90vh; border-style: solid; border-width: 2px; border-color: #888" allowFullScreen="true" src="https://www.jigsawexplorer.com/online-jigsaw-puzzle-player.html?frm=1&url=aHR0cHM6Ly9tYXJnbGF2ZW5kZXIuZ2l0aHViLmlvL0ZpbmFsRXNjYXBlUm9vbS9qaWdzYXdwdXp6bGUuanBnXyhub19wcmV2aWV3XzQpXyhub3A9MjAp&cred=R29vZCBqb2Igb24gY29tcGxldGluZyB5b3VyIGZpcnN0IHB1enpsZSEgWW91IGFyZSBvbmUgc3RlcCBjbG9zZXIgdG8geW91ciB0cmVhc3VyZS4~&credu=aHR0cHM6Ly9tYXJnbGF2ZW5kZXIuZ2l0aHViLmlvL0ZpbmFsRXNjYXBlUm9vbS9wdXp6bGUy&color=yellow" title="Jigsaw Puzzle">Jigsaw Puzzle</iframe>
+
+
+</style>
+</head>
+<body>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
