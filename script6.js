@@ -25,7 +25,7 @@ span.onclick = function() {
 function morsecode() {
    var password = document.getElementById("passwordBox");
    var passwordText = password.value;
-   if(passwordText == "Ernest300") {
+   if(passwordText == "50 steps to the east") {
     return true;
    }
    alert("Access denied! Incorrect password!");
